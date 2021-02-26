@@ -1,0 +1,335 @@
+.body {
+    background-image: linear-gradient(to right, #af40ca, #483D8B, #142d9c);
+    margin: 0 0 0 0 ;
+    padding: auto;
+    z-index: 0;
+}
+
+.navbar {
+    background: rgba(23, 109, 116, 0.4);
+    position: fixed;
+    padding: 10px 10px 10px 5px;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100vw;
+    z-index: 4;
+}
+
+.nav-link3{
+    float: left;
+    position: relative;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    bottom: 24px;
+}
+nav ul li {
+    font-family: Roboto, sans-serif;
+    position: relative;
+  
+    margin-top: 7px;
+    margin-bottom: 010px;
+    margin-left: 40px;
+    list-style-type: none;
+    text-align: center;
+    z-index: 5;
+}
+
+.nav-link {
+    float: right;
+    color: white;
+    border: whitesmoke;
+    font-size: 14px;
+    border-style: solid;
+    position: relative;
+    border-width: 1px;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    margin-top: 7.5px;
+    margin-bottom: 40px;
+    height: 20px;
+    width: 100px;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    z-index: 5;
+    padding-top: 3px;
+}
+.nav-link:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+
+
+.nav-link1 {
+    color: white;
+    float: right;
+    font-family: Roboto, sans-serif;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    list-style-type: none;
+    text-align: center;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.nav-link1:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+.nav-link2 {
+    color: white;
+    float: right;
+    font-family: Roboto, sans-serif;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    list-style-type: none;
+    text-align: center;
+    z-index: 5;
+    text-decoration: none;
+}
+
+.nav-link2:hover{
+    text-decoration: underline;
+}
+
+
+
+.nav-link3{
+    height: 50px;
+    width: 250px;
+    float: left;
+    position: relative;
+    text-decoration: none;
+    font-size: 38px;
+    margin-top: 19px;
+    margin-left: -50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    bottom: 24px;
+}
+ .nav-link3:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+img{
+      
+        margin: 0 auto;
+        margin-top: 120px;
+}
+
+.h1 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.p1 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    width: 540px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.b1 {
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    background: rgb(255, 147, 5);
+    height: 45px;
+    width: 210px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.button1{
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:  'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
+
+
+
+
+
+.section2{
+        background: whitesmoke;
+        position: relative;
+        z-index: 1;
+        height: 700px;
+        margin-top: 200px;
+ } 
+ 
+ .set1{
+        margin: auto;
+        position: relative;
+        text-align: center;
+        top: 50px;
+        width: 100vw;
+        letter-spacing: 10em;
+
+ }
+
+ .set2 {
+        margin: auto;
+        position: relative;
+        text-align: center;
+        top: 50px;
+        width: 100vw;
+        letter-spacing: 10em;
+
+ }
+
+ .block{
+     padding: 100px;
+ }
+ .section2head {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .7;
+    
+ }
+
+ .section2p {
+    
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 135px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    opacity: .7;
+    font-style: italic;
+
+ }
+
+ .section3{
+        background-image: linear-gradient(to right, #35c9b0, #27b8b8, #067c7c);
+        position: relative;
+        z-index: 2;
+        
+    }
+
+    .h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .p2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+        width: 700px;
+        font-size: 20px;
+        margin: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .p3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+        width: 540px;
+        font-size: 20px;
+        margin: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    
+    }
+
+    .b2 {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    }
+    
+    .buttonmargin{
+        background: rgb(255, 147, 5);
+        height: 45px;
+        width: 210px;
+        border-style: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .button2{
+        color: whitesmoke;
+        font-size: 18px;
+        text-decoration: none;
+        font-family:  'Raleway', sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+    }
+    
+    button:hover{
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+    }
+
+footer {
+   display: flex;
+   justify-content: center;
+   color: whitesmoke;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+    
+    
+
+
+    
